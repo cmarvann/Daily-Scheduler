@@ -1,0 +1,164 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  /* line-height: 1; */
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  padding: 8px;
+}
+
+
+textarea{
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.about-title{
+  grid-column: 1/2;
+}
+
+.about-text{
+  grid-column: 2/3;
+}
+
+.past{
+  grid-column: 1/4;
+  font-size: 8px;
+  margin-top: 8px;
+  background-color: rgb(84, 87, 92);
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+.description{
+  white-space: pre-wrap;
+}
+
+.time-block{
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;;
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06AED5;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+
+/* right styling */
+#am1 {
+  background-color: burlywood;
+  width: 13.33%;
+  float: right;
+  height: 50px;
+  border: 1px solid white;
+  border-start-end-radius: 12px;
+  border-end-end-radius: 12px;
+  
+}
+ /* left styling */
+#am2 {
+  background-color: gainsboro;
+  width: 14.33%;
+  float: left;
+  height: 50px;
+  border: 1px solid white;
+}
+
+
+/* middle */
+#am3 {
+  background-color: whitesmoke;
+  width: 72.33%;
+  margin: 0 auto;
+  height: 50px;
+  border: 1px solid white;
+
+}
+
+#timerow-3 #am3 {
+  background-color: #ff6961;
+}
+
+#am3.morning {
+  background-color: beige;
+}
+#am3.evening {
+  background-color: #50daf9;
+}
+
+#timetable {
+ width: 100%;
+}
+
+/* .timerow {
+  width: 100%;
+ 
+} */
+
+
+#end {
+  background-color: whitesmoke;
+  width: 90%;
+  margin: 0 auto;
+  height: 50px;
+  border: 1px solid white;
+  text-align: center;
+  padding: 10px;
+  border-start-end-radius: 12px;
+  border-end-end-radius: 12px;
+
+}
+@media screen and (max-width: 760px) {
+ 
+}
+
+@media screen and (max-width: 560px) {
+ 
+  
+}
+@media screen and (max-width: 320px) {
+ 
+  
+}

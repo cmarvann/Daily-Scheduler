@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -30,9 +30,23 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+      <script>
+        var theDate = new Date().toLocaleDateString();
+        document.getElementById("currentDay").innerHTML = theDate;
+      </script>
+
+     <tr class="textarea">
+     <table id="timetable"> 
+     </table>
+ 
+     <div id="end">End of Day </div>
+ 
+      </tr>
+
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
